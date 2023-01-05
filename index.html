@@ -4,10 +4,32 @@
 
   <head>
     <title>Welcome</title>
-    <link rel="stylesheet" type = "style/css" href="mainpage/page1.css" >
-    <link rel="stylesheet" type="style/css" href="mainpage/page1.css" />
-    <link rel="stylesheet" type="style/css" href="page1.css" >
-    <link rel="stylesheet" type="style/css" href="page1.css" />
+    <link rel="stylesheet" href="mainpage/page1.css">
+    <style>
+      body {
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
+        margin: 0rem;
+        overflow: hidden;
+    }
+    
+    #image-track > .image {
+        width: 40vmin;
+        height: 54vmin;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    #image-track {
+        display: flex;
+        gap: 4vmin;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+    </style>
 
   </head>
 
