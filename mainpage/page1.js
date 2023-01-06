@@ -1,48 +1,37 @@
-const track = document.getElementById("image-track");
+const wrapper = document.getElementById("wrapper");
 
-const handleOnDown = e => {
-  track.dataset.mouseDownAt = e.clientX;
+wrapper.dataset.configuration = 1;
+wrapper.dataset.roundness = 1;
+
+const rand = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+
+const uniqueRand = (min, max, prev) => {
+  let next = prev;
+  
+  while(prev === next) next = rand(min, max);
+  
+  return next;
 }
 
-const handleOnUp = () => {
-  track.dataset.mouseDownAt = "0";  
-  track.dataset.prevPercentage = track.dataset.percentage;
-}
+const combinations = [
+  { configuration: 1, roundness: 1 },
+  { configuration: 1, roundness: 2 },
+  { configuration: 1, roundness: 3 },
+  { configuration: 2, roundness: 3 },
+  { configuration: 2, roundness: 2 },
+  { configuration: 2, roundness: 1 },
+  { configuration: 3, roundness: 2 },
+  { configuration: 3, roundness: 3 },
+];
 
-const handleOnMove = e => {
-  if(track.dataset.mouseDownAt === "0") return;
+let prev = 0;
+
+setInterval(() => {
+  const index = uniqueRand(0, combinations.length - 1, prev)
+  const combination = combinations[index];
   
-  const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX
-  const maxDelta = window.innerWidth / 2;
+  wrapper.dataset.configuration = combination.configuration;
+  wrapper.dataset.roundness = combination.roundness;
   
-  const percentage = (mouseDelta / maxDelta) * -100
-  const nextPercentageUnconstrained = parseFloat(track.dataset.prevPercentage) + percentage
-  const nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
-  
-  track.dataset.percentage = nextPercentage;
-  
-  track.animate(
-    { transform: "translate(${nextPercentage}%, -50%)"}, 
-    { duration: 1200, fill: "forwards" }
-  );
-  
-  for(const image of track.getElementsByClassName("image")) 
-  {
-    image.animate(
-      { objectPosition: "${100 + nextPercentage}% center"}, 
-      { duration: 1200, fill: "forwards" });
-  }
-}
-
-
-window.onmousedown = e => handleOnDown(e);
-
-window.ontouchstart = e => handleOnDown(e.touches[0]);
-
-window.onmouseup = e => handleOnUp(e);
-
-window.ontouchend = e => handleOnUp(e.touches[0]);
-
-window.onmousemove = e => handleOnMove(e);
-
-window.ontouchmove = e => handleOnMove(e.touches[0]);
+  prev = index;
+}, 3000);
