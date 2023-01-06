@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="mainpage/page1.css">
+    <link rel="stylesheet" type="text/css" href="pages/mainpage/page1.css">
 
     <title>Home Page</title>
   </head>
@@ -16,16 +16,51 @@
   <body>
 
     <div id = "wrapper">
-      <div class = "shape" onclick = "javascript:location.href='pages/past/past.html'" style="cursor: pointer;"></div>
-      <div class = "shape" onclick = "javascript:location.href='pages/current/current.html'" style="cursor: pointer;"></div>
-      <div class = "shape" onclick = "javascript:location.href='pages/future/future.html'" style="cursor: pointer;"></div>
-      <div class = "shape" onclick = "javascript:location.href='pages/about/about.html'" style="cursor: pointer;"></div>
-      <div class = "shape" onclick = "javascript:location.href='pages/social/social.html'" style="cursor: pointer;"></div>
-      <div class = "shape" onclick = "javascript:location.href='pages/resume/resume.html'" style="cursor: pointer;"></div>
-      <div class = "shape" onclick = "javascript:location.href='pages/github/github.html'" style="cursor: pointer;"></div>
+
+      <div class = "shape" onclick = "javascript:location.href='past.html'" style="cursor: pointer;">
+        <div class="overlay">
+          <div class="text">Past Projects</div>
+        </div>
+      </div>
+
+      <div class = "shape" onclick = "javascript:location.href='current.html'" style="cursor: pointer;">
+        <div class="overlay">
+          <div class="text">Current Work</div>
+        </div>
+      </div>
+
+      <div class = "shape" onclick = "javascript:location.href='future.html'" style="cursor: pointer;">
+        <div class="overlay">
+          <div class="text">Goals</div>
+        </div>
+      </div>
+
+      <div class = "shape" onclick = "javascript:location.href='about.html'" style="cursor: pointer;">
+        <div class="overlay">
+          <div class="text">About Me</div>
+        </div>
+      </div>
+
+      <div class = "shape" onclick = "javascript:location.href='social.html'" style="cursor: pointer;">
+        <div class="overlay">
+          <div class="text">Social Media</div>
+        </div>
+      </div>
+
+      <div class = "shape" onclick = "javascript:location.href='resume.html'" style="cursor: pointer;"><div class="overlay">
+          <div class="text">Resume</div>
+        </div>
+      </div>
+
+      <div class = "shape" onclick = "javascript:location.href='github.html'" style="cursor: pointer;">
+        <div class="overlay">
+          <div class="text">Github</div>
+        </div>
+      </div>
+
     </div>
 
-    <script src="mainpage/page1.js"></script> 
+    <script src="pages/mainpage/page1.js"></script> 
   </body>
 
 </html>

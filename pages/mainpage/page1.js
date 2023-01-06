@@ -1,7 +1,10 @@
 const wrapper = document.getElementById("wrapper");
+const overlay = document.getElementById("overlay");
+
 
 wrapper.dataset.configuration = 1;
 wrapper.dataset.roundness = 1;
+//overlay.dataset.overlay = 1;
 
 const rand = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
@@ -32,6 +35,7 @@ setInterval(() => {
   
   wrapper.dataset.configuration = combination.configuration;
   wrapper.dataset.roundness = combination.roundness;
+  //overlay.dataset.overlay = combination.roundness;
   
   prev = index;
 }, 3000);
