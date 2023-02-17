@@ -1,0 +1,8 @@
+City Name: Copenhagen
+It's a fog
+The Temperature is: 6.66 degrees in Celcius and 43.99 degrees in Farenheit
+It feels like: 3.1 degrees in Celcius and 37.58 degrees in Farenheit
+The humidity is 98%
+The windspeed is 5.66 km/h
+The sun rises at 2023-02-17 07:30:48
+The sun sets at 2023-02-17 17:17:02

@@ -1,0 +1,8 @@
+City Name: Mumbai
+It's a smoke
+The Temperature is: 34.14 degrees in Celcius and 93.45 degrees in Farenheit
+It feels like: 32.8 degrees in Celcius and 91.04 degrees in Farenheit
+The humidity is 26%
+The windspeed is 3.6 km/h
+The sun rises at 2023-02-17 07:06:14
+The sun sets at 2023-02-17 18:39:22

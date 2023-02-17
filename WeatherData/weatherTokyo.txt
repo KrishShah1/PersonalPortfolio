@@ -1,0 +1,8 @@
+City Name: Tokyo
+It's a few clouds
+The Temperature is: 10.57 degrees in Celcius and 51.03 degrees in Farenheit
+It feels like: 8.71 degrees in Celcius and 47.68 degrees in Farenheit
+The humidity is 40%
+The windspeed is 3.09 km/h
+The sun rises at 2023-02-17 06:27:01
+The sun sets at 2023-02-17 17:23:51
