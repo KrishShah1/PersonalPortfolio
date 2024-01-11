@@ -1,8 +1,0 @@
-City Name: Pleasanton
-It's a clear sky
-The Temperature is: 5.91 degrees in Celcius and 42.64 degrees in Farenheit
-It feels like: 5.91 degrees in Celcius and 42.64 degrees in Farenheit
-The humidity is 69%
-The windspeed is 0.45 km/h
-The sun rises at 2023-02-16 06:56:11
-The sun sets at 2023-02-16 17:47:15

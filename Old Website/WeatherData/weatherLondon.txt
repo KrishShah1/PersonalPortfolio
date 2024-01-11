@@ -1,8 +1,0 @@
-City Name: London
-It's a scattered clouds
-The Temperature is: 11.53 degrees in Celcius and 52.75 degrees in Farenheit
-It feels like: 10.94 degrees in Celcius and 51.69 degrees in Farenheit
-The humidity is 85%
-The windspeed is 7.2 km/h
-The sun rises at 2023-02-17 07:11:32
-The sun sets at 2023-02-17 17:17:50

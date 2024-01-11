@@ -1,8 +1,0 @@
-City Name: Los Angeles
-It's a clear sky
-The Temperature is: 10.57 degrees in Celcius and 51.03 degrees in Farenheit
-It feels like: 8.48 degrees in Celcius and 47.26 degrees in Farenheit
-The humidity is 31%
-The windspeed is 4.12 km/h
-The sun rises at 2023-02-16 06:37:00
-The sun sets at 2023-02-16 17:37:22
