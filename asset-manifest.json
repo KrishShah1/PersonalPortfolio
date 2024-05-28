@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.f3e133c7.css",
-    "main.js": "/react-gh-pages/static/js/main.7e4318bd.js",
-    "static/js/453.aac68abc.chunk.js": "/react-gh-pages/static/js/453.aac68abc.chunk.js",
-    "static/media/pic.png": "/react-gh-pages/static/media/pic.a0f2ea9037d92fd1c031.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.f3e133c7.css.map": "/react-gh-pages/static/css/main.f3e133c7.css.map",
-    "main.7e4318bd.js.map": "/react-gh-pages/static/js/main.7e4318bd.js.map",
-    "453.aac68abc.chunk.js.map": "/react-gh-pages/static/js/453.aac68abc.chunk.js.map"
+    "main.css": "/PersonalPortfolio/static/css/main.f3e133c7.css",
+    "main.js": "/PersonalPortfolio/static/js/main.ee0b5be6.js",
+    "static/js/453.aac68abc.chunk.js": "/PersonalPortfolio/static/js/453.aac68abc.chunk.js",
+    "static/media/pic.png": "/PersonalPortfolio/static/media/pic.a0f2ea9037d92fd1c031.png",
+    "index.html": "/PersonalPortfolio/index.html",
+    "main.f3e133c7.css.map": "/PersonalPortfolio/static/css/main.f3e133c7.css.map",
+    "main.ee0b5be6.js.map": "/PersonalPortfolio/static/js/main.ee0b5be6.js.map",
+    "453.aac68abc.chunk.js.map": "/PersonalPortfolio/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3e133c7.css",
-    "static/js/main.7e4318bd.js"
+    "static/js/main.ee0b5be6.js"
   ]
 }
