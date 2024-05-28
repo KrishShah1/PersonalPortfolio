@@ -20,6 +20,23 @@ const Education = () => {
         <p>Graduated as an AP Scholar and with Honors</p>
         <p>Member of the National Honor Society</p>
       </div>
+      
+      <div>
+        <h4>Technical Skills</h4>
+        <p>Programming Languages: C++, Python, Java, JavaScript, HTML, CSS</p>
+        <p>Software: Visual Studio Code, XCode, Android Studio, MATLAB, Git, Jupyter Notebook</p>
+        <p>Operating Systems: Windows, MacOS, Linux</p>
+      </div>
+
+      <div>
+        <h4>Coursework</h4>
+        <p>Computer Science: Data Structures, Algorithms, Computer Networks, Operating Systems, Software Engineering</p>
+        <p>Electrical Engineering: Digital Logic, Circuit Analysis, Electronics, Signals and Systems</p>
+        <p>Mathematics: Calculus, Linear Algebra, Differential Equations, Probability and Statistics</p>
+      </div>
+      
+
+
     </Container>
   );
 }

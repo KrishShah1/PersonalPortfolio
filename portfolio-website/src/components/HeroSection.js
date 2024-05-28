@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Container } from 'react-bootstrap';
+import pic from './pic.png'; // Adjust the import path if necessary
 
 const HeroSection = () => {
   const h1Ref = useRef(null);
@@ -57,9 +58,9 @@ const HeroSection = () => {
       <Container className="hero-content">
         <h1 ref={h1Ref} data-value="KRISH SHAH">KRISH SHAH</h1>
         <p ref={pRef} data-value="SOFTWARE ENGINEER">SOFTWARE ENGINEER</p>
-        <img 
-          src="https://via.placeholder.com/150" 
-          alt="John Doe" 
+        <img
+          src={pic} 
+          alt="Krish Shah" 
           className="hero-image"
         />
       </Container>
